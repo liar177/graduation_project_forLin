@@ -41,6 +41,7 @@ u8 status_sr501 = 0;		//人体红外检测到的值
 int max_mq7 = 50;			//烟雾浓度阈值
 u8 LED_Light;				//PWM灯光亮度
 
+u8 opp;
 //硬件初始化
 void Hardware_Init(void)
 {
